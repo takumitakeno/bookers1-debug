@@ -55,7 +55,14 @@ group :test do
 	gem 'faker'
 	gem 'shoulda-matchers'
 	gem 'rails-controller-testing'
+  gem 'rspec-rails'
+  gem "factory_bot_rails"
+  gem 'rspec-parameterized'
+  gem 'faker'
+  gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
 end
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
